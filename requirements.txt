@@ -1,3 +1,4 @@
 mlflow
 databricks-cli
 scikit-learn
+Keras

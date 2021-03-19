@@ -1,4 +1,4 @@
 artifact_location: file:///home/runner/pyspark/mlruns/1
 experiment_id: '1'
 lifecycle_stage: active
-name: new expenza
+name: col_model

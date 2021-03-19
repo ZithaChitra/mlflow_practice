@@ -4,6 +4,8 @@ conda_env: my_env.yaml
 # Can have a docker_env instead of a conda_env, e.g
 # docker_env:
 #	image: mlflow-docker-example
+#	volumes:
+#	environment:
 
 entry_points:
 	main:
@@ -16,4 +18,4 @@ entry_points:
 			data_file: path
 		command: "python validate.py {data_file}"
 
-		
+

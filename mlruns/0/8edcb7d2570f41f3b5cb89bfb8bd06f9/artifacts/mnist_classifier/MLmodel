@@ -1,0 +1,19 @@
+artifact_path: mnist_classifier
+flavors:
+  keras:
+    data: data
+    keras_module: keras
+    keras_version: 2.4.3
+    save_format: tf
+  python_function:
+    data: data
+    env: conda.yaml
+    loader_module: mlflow.keras
+    python_version: 3.8.8
+run_id: 8edcb7d2570f41f3b5cb89bfb8bd06f9
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "uint8", "shape": [-1, 28,
+    28, 1]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1,
+    10]}}]'
+utc_time_created: '2021-03-19 17:33:44.820163'

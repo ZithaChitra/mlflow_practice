@@ -6,6 +6,10 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+mlflow = "^1.14.1"
+pandas = "^1.2.3"
+sklearn = "^0.0"
+keras = "^2.4.3"
 
 [tool.poetry.dev-dependencies]
 
